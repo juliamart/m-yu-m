@@ -2508,17 +2508,30 @@ img.callback-modal-btn.phone-icon {
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 20px 8px rgba(0,0,0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.thanks__logo {
+	max-width: 50px;
+	margin-bottom: 20px;
 }
 
 .thanks__title {
     color: #848484;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .thanks__icon {
     color: #368d3e;
 	transition: margin 250ms;
+}
+
+.thanks__text {
+	margin-bottom: 20px;
 }
 
 .thanks__text:hover .thanks__icon {
