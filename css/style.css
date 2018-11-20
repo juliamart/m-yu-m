@@ -2492,3 +2492,42 @@ img.callback-modal-btn.phone-icon {
     justify-content: center;
     align-items: center;
 }
+
+.thanks-body {
+    background: rgba(0,0,0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.thanks {
+    font-family: Ubuntu, sans-serif;
+    max-width: 300px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 8px rgba(0,0,0, 0.2);
+}
+
+.thanks__title {
+    color: #848484;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.thanks__icon {
+    color: #368d3e;
+	transition: margin 250ms;
+}
+
+.thanks__text:hover .thanks__icon {
+	margin-left: -4px;
+	margin-right: 4px;
+}
+
+.thanks__link:hover {
+    text-decoration: none;
+}
+
+
