@@ -1,0 +1,707 @@
+@charset "utf-8";
+
+@media (max-width: 1100px) {
+    .head-text {
+        margin-left: 0
+    }
+}
+
+@media (max-width: 1150px) {
+    .arrows {display: none;}
+}
+
+@media (max-width: 1098px) {
+    .head-text {
+        margin: 0 auto;
+    }
+
+    .head-container {
+        width: 90%
+    }
+
+    .head {
+        min-height: 500px;
+        margin-bottom: 20px;
+        padding: 50px 0;
+    }
+
+    .header {
+        margin: 0 auto;
+        min-height: auto;
+    }
+
+
+    .head-text {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .hzvonok {
+        float: none;
+        margin: 10px auto;
+    }
+
+    .zvonok {
+        margin: 3px auto;
+        width: 240px;
+    }
+
+    .rabotaem {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 990px) {
+    .head-form {
+        float: none;
+        margin: 0 auto;
+        background: none;
+        clear: both;
+    }
+    .nav {
+        display: none;
+    }
+    .main-nav {
+        width: 100%;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background: #fff;
+        display: none;
+    }
+    .activ-nav.main-nav {
+        display: block;
+    }
+    .main-nav .main-nav--item {
+        display: block;
+        border-top: 1px solid #c1c1c1;
+    }
+
+    .main-nav .main-nav--item:last-child {
+        border-bottom: 1px solid #c1c1c1;
+    }
+    .header-container.small-header .main-nav {
+        top: 50px;
+    }
+    .main-nav-btn {
+        display: block;
+        margin-right: 0px;
+    }
+    .circle {
+        display: block;
+    }
+    .shema-container {
+        display: none;
+    }
+
+    .logo {
+      text-align: left;
+    }
+
+     .nav-contacts{
+        justify-content: flex-end;
+    }
+
+    .phone-link {
+        margin: 0;
+        white-space: nowrap;
+    }
+
+
+    .main_button {
+        display: none;
+    }
+
+    .nav-contacts {
+        align-items: center;
+    }
+    
+    .forma_head {
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 884px) {
+        .cifry-conteiner {
+        max-width: 98%;
+        min-height: 800px;
+    }
+
+    #canvas {
+        width: 170px;
+    }
+    .con-text {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        width: 200px;
+    }
+    .client-name {
+        text-align: center;
+    }
+    .client-img,
+    .client-info {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .client-info {
+        padding: 50px;
+        box-sizing:  border-box;
+    }
+    .zayavki {
+        float: none;
+        margin: 0 auto;
+    }
+    .stoimost {
+        float: none;
+        margin: -80px auto;
+    }
+    .cient-line {
+        min-width: 370px;
+        width: 50%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .prices-block1 {
+        width: 100%;
+    }
+    .prices-block2 {
+        width: 100%;
+    }
+    .prices-block3 {
+        width: 100%;
+    }
+
+    .empty-price {
+        display: none;
+    }
+
+    .kak-nachat-rabotu-title {
+        padding-top: 72px;
+        font-size: 25pt;
+    }
+    .kak-nachat-rabotu-container {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .f {
+        float: none;
+    }
+    .f-line {
+        display: none;
+    }
+    .f-brif {
+        margin: 10px auto;
+    }
+
+    .otzyvy {
+        margin-top: -30px;
+    }
+    .otzyvy-head {
+        margin-top: -43px;
+    }
+
+    .price-paket-punkt0 {
+        display: none;
+    }
+}
+
+@media (max-width: 816px) {
+    .direction-dev--item {
+        width: 45%;
+    }
+    .portfolio-preview {
+        width: 47%;
+    }
+    .head-text-block {
+        margin: 0px auto;
+        padding-top: 0;
+        max-width: initial;
+    }
+
+    .head-form {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #pochemu {
+        margin-top: 1px;
+    }
+
+
+    .f-brif {
+        margin: 10px auto;
+    }
+
+    .video-block {
+        width: 95%;
+    }
+    .video-contacts {
+        width: 100%;
+        box-sizing:  border-box;
+    }
+    .simple-otzyv {
+        width: 95%;
+    }
+
+    
+    .main_logo_block img {
+        width: 100px;
+        height: 100px;
+    }
+
+     .services_list .new_usluga {
+        width: 48%;
+    }
+
+     .phone-link--phone {
+        display: none;
+    }
+
+     .active-phone {
+        /*display: block;*/
+        position: absolute;
+        width: 200px;
+        padding: 5px;
+        background: #ebebeb;
+        right: 0;
+        top: 70px;
+        border-radius: 5px;
+        border: 1px solid #378d3e;
+    }
+
+    .phone-icon {
+            margin: 0 10px;
+    }
+
+
+    .responsive_button {
+        display: block;
+    }
+}
+
+@media (max-width: 730px) {
+    .working-on-project--content {
+        width: 100%;
+    }
+    .hzvonok {
+        display: none;
+    }
+    .context-text {
+        font-size:  14px;
+    }
+    .head-text {
+        margin-bottom: 10px;
+    }
+    .head-text-block {
+        /* padding-top: 15px; */
+    }
+
+
+
+    .main_logo_block .left_block,
+    .main_logo_block .right_block {
+       font-size: 20px;
+    }
+    
+    .main-carousel .slide-item {
+        width: 25%;
+    }
+
+    .button-icon__text {
+        display: none;
+    }
+
+    .button-icon__icon {
+        margin-right: 0;
+    }
+    .header_button {
+        padding: 0;
+        margin: 0;
+    }
+    .logo {
+        max-width: 110px;
+    }
+}
+
+@media (max-width: 640px) {
+    .direction-dev--item {
+        width: 100%;
+    }
+    .portfolio-preview {
+        width: 94%;
+    }
+    .brif-btn {
+        font-size: 12px;
+    }
+    .logo-gallery {
+        justify-content: center;
+        display:  block;
+        text-align:  center;
+    }
+    .logo-gallery img {
+        height: auto;
+        width:  initial;
+        max-width: 200px;
+        margin: 10px;
+    }
+    #footer {
+        flex-wrap: wrap;
+    }
+    .footer-contacts {
+        width: 100%;
+        max-width: initial;
+    }
+    .my-block {
+        width: 98%;
+    }
+
+     .services_list .new_usluga {
+        width: 98%;
+    }
+
+      .main-carousel .slide-item {
+        width: 33%;
+    }
+}
+
+@media (max-width: 480px) {
+    .button:hover,
+    .button-icon:hover,
+    .form-button:hover {
+        color: #fff;
+    }
+    .button::after,
+    .form-button::after,
+    .button-icon::after {
+        display: none;
+    }
+    .head-text__holder {
+        padding-bottom: 20px;
+    }
+    .head-container {
+        width: auto;
+        margin: auto 20px;
+    }
+    .head-top {
+        padding: 30px 0;
+        margin-top: 40px;
+    }
+    .head {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+    body {
+        font-size: 14px;
+    }
+    
+    .head-text-block {
+        font-size: inherit;
+    }
+    .head-text-block__title {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .prices-block1, .prices-block2, .prices-block3 {
+        margin: 30px 30px 0;
+        width: auto;
+        float: none;
+    }
+    .price-paket {
+        width: auto;
+        margin-bottom: 0;
+    }
+    .phone-link--phone {
+        display: none;
+    }
+    .active-phone {
+        position: absolute;
+        width: 200px;
+        padding: 5px;
+        background: #ebebeb;
+        right: 0;
+        top: 70px;
+        border-radius: 5px;
+        border: 1px solid #378d3e;
+    }
+
+     .main_logo_block .left_block,
+        .main_logo_block .right_block {
+       font-size: 16px;
+    }
+
+     .main_logo_block .left_block span,
+        .main_logo_block .right_block span{
+       display: none;
+    }
+
+    .circle_logo div:after, .circle_logo div:before {
+        height: 15px;
+    }
+    .head-text-block-ico {
+        margin-right: 4px;
+        display: inline-flex;
+    }
+    .form_head {
+        padding-top: 0;
+    }
+    .head-form {
+        margin-top: 20px;
+    }
+    .services_list .new_usluga {
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .main_service_title {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    section {
+        padding: 20px 0;
+    }
+    .head {
+        margin-bottom: 0;
+    }
+    .head.head-top {
+        margin-top: 40px;
+    }
+    .kak-nachat-rabotu-title {
+        font-size: 18px;
+        padding-top: 36px;
+    }
+    .kak-nachat-rabotu-container {
+        padding: 0;
+    }
+    .services_list {
+        margin: 0;
+    }
+    .f {
+        width: 150px;
+        margin: 0 auto 34px;
+    }
+    .f-brif-container {
+        float: none;
+    }
+    .f-brif {
+        margin: 0;
+    }
+    .kak-nachat-rabotu {
+        padding: 20px 0;
+    }
+    .my {
+        font-size: 30px;
+    }
+    .pochemu-container {
+        float: none;
+    }
+    #working-on-project {
+        clear: both;
+        padding: 0;
+    }
+    .working-on-project--content {
+        color: #fff;
+        background: rgba(0,0,0, 0.7);
+    }
+    .prices-title {
+        font-size: 30px;
+        margin: 10px auto 30px;
+    }
+    .price-paket-head,
+    .price-paket-head2,
+    .price-paket-head3 {
+        width: auto;
+        height: initial;
+        padding: 20px;
+    }
+    .price-paket-punkt {
+        padding: 10px;
+        width: auto;
+    }
+    .korona {
+         margin-top: 10px;
+    }
+    .working-on-project--title + p {
+        margin-block-end: 30px;
+    }
+    .head-text-block > div ~ br {
+        display: none;
+    }
+    .head--dev {
+        margin-top: 0;
+    }
+    .direction-dev--title {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .direction-dev--item {
+        padding: 30px 10px 20px;
+        width: 90%;
+        margin: 0 auto 30px;
+        box-sizing: border-box;
+    }
+    .cifry-title {
+        font-size: 30px;
+    }
+
+    #cifry {
+        padding: 20px 0;
+    }
+
+    .cifry-conteiner {
+        padding: 30px 0 0;
+    }
+
+    .con-text {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .con-text:last-child {
+        margin-bottom: 20px;
+    }
+
+    #canvas {
+        width: auto;
+    }
+
+    .head-form--questions .form-group__item {
+        flex: auto;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .head-form--questions .form-group__item:last-child{
+        margin-bottom: 0;
+    }
+
+    .head-form--questions .form-group {
+        flex-wrap: wrap;
+    }
+    .head-form--questions .form-group__item .context-text {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    .direction-dev--button {
+        margin-top: 20px;
+    }
+    .direction-dev--item {
+        min-height: 200px;
+    }
+    .button-top {
+        bottom: 20px;
+        right: 20px;
+    }
+    .prices-head,
+    .prices-foot {
+        height: 50px;
+        background-size: cover;
+    }
+    #request-modal .sender-caption {
+        font-size: 20px;
+    }
+    .head-text-block {
+        width: 100%;
+    }
+    .head-form {
+        float: none;
+        width: 100%;
+        padding: 0;
+        background-position: center;
+        box-sizing: border-box;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .head-form input[type=image] {
+        width: 100%;
+    }
+
+    .cient-line {
+        min-width: 290px;
+    }
+
+    .video-contacts {
+        max-width: 260px;
+        float:  none;
+        margin:  0 auto;
+    }
+    .f-brif img {
+        width: 280px;
+    }
+
+    .my {
+        margin: 0 auto;
+    }
+
+     .main_logo_block .left_block,
+        .main_logo_block .right_block {
+       font-size: 12px;
+    }
+
+     .main-carousel .slide-item {
+        width: 50%;
+    }
+
+    .main-nav-btn {
+        padding: 5px;
+        line-height: 1;
+        padding-bottom: 2px;
+    }
+
+    .button-icon {
+        padding: 1px 4px;
+    }
+    
+    .phone-link:first-child {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .header_button {
+        text-align: left;
+    }
+}
+
+@media (max-width: 340px) {
+    .my-block-but img {
+        width: 300px;
+    }
+
+
+    .otzyvy {
+        width: 100%;
+    }
+
+    .otzyvy-head {
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    .otzyvy-foot {
+        width: 98%;
+        margin-left: 3px;
+    }
+}
+@media (min-width: 760px) {
+    .main-nav a:hover:after, .active a:after{
+        width: 100%;
+        background: #368E3F;
+    }
+}

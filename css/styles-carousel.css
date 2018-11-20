@@ -1,0 +1,78 @@
+.carousel  {
+   max-width: 900px; /* ������ ����� ����� */
+   margin: 10px auto;
+   width:100%;
+}
+.carousel-wrapper {
+     margin: 50px 30px 50px 30px; /* ������� ��� ������� */
+   overflow: hidden; /* �������� ����������, ��������� �� ����� �������� ������� */
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; /* ������������� ������� ������ ��� ������ ��������� */
+   position: relative; /* ������������� ���� ������������ �������� ������� �������� */
+}
+.carousel-block {
+   float: left; /* ����������� ��� �������� �������� � ��� */
+   width: 200px; /* ����� ������ ������� �������� */
+   /* padding: 10px 10px 10px 0px; */ /* ������ ������, ����� �������� �� ��������� */
+   padding: 10px;
+}
+.carousel-block img{
+  display:block;
+  width: 100%;
+  /*-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;*/
+  /* margin:  5px; */
+  max-width:  100%;
+  /* width:  100%; */
+  /* box-sizing:  border-box; */
+}
+
+/*.carousel-block img:hover{
+opacity: 0.55; 
+}*/
+
+.carousel-block a{
+color:#770202;
+text-decoration: none;
+font-weight: bold;
+}
+
+.carousel-block a:hover{
+color: #333;
+}
+
+.carousel-block p{
+font-size:10pt;
+}
+
+/*********** BUTTONS ***********/
+.carousel-button-left a, .carousel-button-right a{
+   width: 35px;
+   height: 45px;
+   position: relative;
+   top: 100px;
+   cursor: pointer;
+   text-decoration:none;
+   color:  #fff;
+   font-size: 40px;
+}
+.carousel-button-left a {
+   float: left;
+   right: 5px;
+   /* background: url(../img/carousel-left.png); */
+}
+.carousel-button-right a {
+   float: right;
+   left: 5px;
+   /* background: url(../img/carousel-right.png); */
+}
+
+/*********** SHADOW ***********/
+.shadow{
+  /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);*/
+}

@@ -1,0 +1,112 @@
+/* window */
+.walet-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1000;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.walet-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+/* =========== ����� ============= 
+================================== */
+.walet-popup {
+    left: 55%;
+    opacity: 0;
+    padding: 10px;
+    position: fixed;
+    top: 40%;
+    visibility: hidden;
+    z-index: 2000;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+.walet-feedbackf {  
+width: 85%;
+  border-radius: 9px;
+  position: relative;  
+  text-align: center;
+}
+.walet-feedbackf img{
+ margin-right: 15px;
+ border-radius: 5px;
+ border: 1px solid #fff; 
+}
+.walet-overlay:target+.walet-popup {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+/* ������ �������� ����  */
+.walet-closef {      
+  line-height: 24px;
+  position: absolute;
+  right: 48%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: arial;
+  top: -16px;
+  width: 32px;
+  height: 32px;
+  margin-top: -1px;  
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+     border-radius: 15px;  
+     background: url(../img/li-no.png);  
+}
+.walet-closef:before {
+    color: #747474;
+    content: "";    
+    font-size: 18px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    line-height: 0.5;
+    padding-top: -3px;
+}
+.walet-popup p, .popup div {
+    margin-bottom: 10px;
+}/*window*/
+
+.certificates {
+  text-align: center;
+  height: 220px;
+}
+.certificates a{
+  padding: 5px;
+}
+
+.popup-content {background: #fff; min-width:900px; min-height:400px;}
+.pblock {float:left; widht:130px; margin-right:15px; margin-top:15px; text-align:center;}
+.all-blocks {    
+width: 980px;
+    margin: 0 auto;
+    height: 380px;
+    padding-top: 12px;
+  }

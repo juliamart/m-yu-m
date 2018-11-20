@@ -1,0 +1,1005 @@
+#callback-open,
+#request-open,
+#callback-modal .callback-modal__body,
+#request-modal .request-modal_body,
+#request-open .sender-done,
+#request-open .sender-err,
+#callback-open .sender-done,
+#callback-open .sender-err,
+#callback-open .sender-done,
+#callback-open .sender-err,
+#callback-modal .sender-done,
+#callback-modal .sender-err,
+#request-modal .sender-done,
+#request-modal .sender-err {
+    background: #ffffff;
+}
+
+
+#callback-sale .callback-sale__body
+{
+    background: rgba(0, 0, 0, .7);
+}
+
+#callback-sale .sender-done,
+#callback-sale .sender-err {
+    background: black;
+}
+
+#callback-open *,
+#request-open *,
+#callback-sale .callback-sale__body *,
+#callback-modal .callback-modal__body *,
+#request-modal .request-modal_body *
+{
+    box-sizing: border-box;
+}
+
+.sender-check {
+    color: #418f3d;
+}
+
+#request-open .sender-btn,
+#callback-open .sender-btn,
+#request-modal .sender-btn,
+#callback-modal .sender-btn,
+#callback-sale .sender-btn {background: #378d3e!important;}
+
+
+#callback-open {
+    /*background: #000;*/
+    padding: 40px 20px;
+    color: #fff;
+    position: relative;
+}
+
+#callback-open .form_input {
+    position: relative;
+}
+
+#callback-open .massage-content {
+    margin: auto;
+    text-align: center;
+}
+
+#callback-open .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    s
+}
+
+#callback-open h2 {
+    margin: 0 !important;
+    font-size: 24px;
+}
+
+#callback-open .sender-input,
+#callback-open .sender-btn {
+    width: 100%;
+    padding: 9px;
+    margin: 10px 0;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid;
+    color: #fff;
+}
+
+#callback-open .sender-btn {
+    border: 2px solid #1ab189;
+    color: #fff;
+}
+
+#callback-open .sender-descr {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#callback-open .sender-done,
+#callback-open .sender-err {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+#callback-open .sender-check {
+    font-size: 60px;
+    margin: -30px 0 -15px 0;
+}
+
+#callback-open .err-val-phone::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ff1b3c;
+}
+
+
+#callback-open .form_input {
+    width: 33.333%;
+    padding: 0 15px;
+}
+
+#callback-open .callback-open__body {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#callback-open .err-val-phone {
+    background: #ff1b3c;
+    color: #fff;
+    display: none;
+    position: absolute;
+    left: 15px;
+    bottom: -50%;
+    z-index: 1;
+    padding: 5px 10px;
+    animation: pulse-c 2s infinite ease-in-out;
+}
+
+.form-input::-webkit-input-placeholder {
+    color: grey;
+    transition: color 250ms;
+}
+.form-input::-moz-placeholder {
+    color: grey;
+    transition: color 250ms;
+}
+.form-input:-moz-placeholder {
+    color: grey;
+    transition: color 250ms;
+}
+.form-input:-ms-input-placeholder {
+    color: grey;
+    transition: color 250ms;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    transition: color 250ms;
+}
+::-moz-placeholder {
+    color: #fff;
+    transition: color 250ms;
+}
+:-moz-placeholder {
+    color: #fff;
+    transition: color 250ms;
+}
+:-ms-input-placeholder {
+    color: #fff;
+    transition: color 250ms;
+}
+
+@keyframes pulse-c {
+    from,
+    to {
+        bottom: -30px
+    }
+    10% {
+        bottom: -25px
+    }
+    20% {
+        bottom: -30px
+    }
+    30% {
+        bottom: -25px
+    }
+    40% {
+        bottom: -30px
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+@media (max-width: 666px) {
+    #callback-open .form_input {
+        width: 100%;
+    }
+    #callback-open .form_input:first-child,
+    #callback-open .form_input:nth-child(2) {
+        width: 50%;
+    }
+}
+
+@media (max-width: 404px) {
+    #callback-open .form_input {
+        width: 100% !important;
+    }
+    #callback-sale .form_input {
+        float: none;
+        width: 100%;
+    }
+}
+
+#request-open {
+    width: 100%;
+    max-width: 500px;
+    color: #464646;
+    position: relative;
+    margin: 0 auto;
+}
+
+#request-open .form_input {
+    position: relative;
+}
+
+#request-open .flex-container {
+    height: 100%;
+}
+
+#request-open .massage-content {
+    margin: auto;
+    text-align: center;
+}
+
+#request-open .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#request-open .c-red {
+    color: red;
+}
+
+#request-open .sender-caption {
+    margin: 20px 9 !important;
+    font-size: 24px;
+}
+
+#request-open .form_input p {
+    margin: 0;
+}
+
+#request-open .sender-input,
+#request-open .sender-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 0 0 20px 0;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #4a4646;
+}
+
+#request-open .form_input>p {
+    font-size: 17px;
+}
+
+#request-open .sender-input {
+    border-bottom: 1px solid #7d7d7d57;
+    background: #408f3e0d;
+    border-radius: 5px 5px 0 0;
+}
+
+input.sender-input.sender-name {}
+
+#request-open .sender-btn {
+    padding: 9px 0;
+    color: #fff;
+    margin: 20px 0 10px 0;
+    cursor:  pointer;
+}
+
+#request-open .sender-done,
+#request-open .sender-err {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #464646;
+}
+
+#request-open .sender-check {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+#request-open .err-val-phone::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ff1b3c;
+}
+
+#request-open .err-val-phone {
+    background: #ff1b3c;
+    color: #fff;
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    z-index: 1;
+    padding: 5px 10px;
+    animation: pulse-r 2s infinite ease-in-out;
+}
+
+.sender-caption,
+.sender-descr {
+    text-align: center;
+}
+
+@keyframes pulse-r {
+    from,
+    to {
+        bottom: -30px
+    }
+    10% {
+        bottom: -25px
+    }
+    20% {
+        bottom: -30px
+    }
+    30% {
+        bottom: -25px
+    }
+    40% {
+        bottom: -30px
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+#callback-sale {
+     display: none;
+    position: fixed;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, .7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    overflow: auto;
+}
+
+#callback-sale.show-modal {
+    display: flex;
+}
+
+#callback-sale .callback-sale__body {
+    padding: 20px 0px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    color: #ffffff;
+    margin: auto;
+}
+
+
+
+.callback-sale-overley {
+    display: none;
+}
+
+#callback-sale .form_input {
+    position: relative;
+}
+
+.snowflake {
+    text-align: center;
+    font-size: 28px;
+}
+
+#callback-sale .massage-content {
+    margin: auto;
+    text-align: center;
+    color: red;
+    color: #4c4c4c;
+}
+
+#callback-sale .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%
+}
+.send-info {
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 0 15px;
+    top: 25px;
+    opacity: .7;
+    margin: 16px 0 0;
+}
+#callback-sale h2 {
+    margin: 0 !important;
+    font-size: 45px;
+    text-align: center;
+}
+#callback-sale .sale--descr span {
+font-size: 17px;
+display: block;
+
+}
+
+#callback-sale .sale--descr {
+    text-align: left;
+    border: 0px dashed;
+    margin: 20px 15px 0;
+    padding: 10px 30px;
+    position: relative;
+}
+
+#callback-sale .sale--descr img{
+    margin-right: 10px;
+}
+
+#callback-sale .sender-input,
+#callback-sale .sender-btn {
+    width: 90%;
+    padding: 11px 0;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background: transparent;
+    border-bottom: 2px solid #5bbf69;
+    color: white;
+}
+
+#callback-sale .sender-btn {
+    border: none;
+    color: #fff;
+    cursor:  pointer;
+    margin: 30px 0 0;
+}
+
+#callback-sale .sender-descr {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#callback-sale .sender-done,
+#callback-sale .sender-err {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+#callback-sale .sender-check {
+    font-size: 60px;
+    margin: 30px auto;
+}
+
+#callback-sale .err-val-phone::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ff1b3c;
+}
+
+#callback-sale .form_input {
+    width: 100%;
+    margin:  0 auto;
+    padding: 0 15px;
+    box-sizing:  border-box;
+    text-align:  center;
+}
+
+#callback-sale .sender-phone {margin-top: 28px;}
+
+#callback-sale .err-val-phone {
+    background: #ff1b3c;
+    color: #fff;
+    display: none;
+    position: absolute;
+    left: 15px;
+    bottom: -50%;
+    z-index: 1;
+    padding: 5px 10px;
+    animation: pulse-c-m 2s infinite ease-in-out;
+}
+
+#callback-sale .sale_title {
+    text-align:  center;
+    font-size: 27px;
+    padding: 0px 28px;
+    margin-top: 20px;
+}
+
+.callback-sale__close {
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 55;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.callback-sale__close span {
+    display: block;
+    background: #5bbf69;
+    transform: rotate(45deg);
+    height: 1px;
+    width: 100%;
+}
+
+.callback-sale__close:hover {
+    transform: rotate(90deg);
+}
+
+
+.callback-sale__close span:last-child {
+    transform: rotate(-45deg);
+}
+
+.fixed-body {
+    overflow: hidden;
+}
+
+@keyframes pulse-c-m {
+    from,
+    to {
+        bottom: -30px
+    }
+    10% {
+        bottom: -25px
+    }
+    20% {
+        bottom: -30px
+    }
+    30% {
+        bottom: -25px
+    }
+    40% {
+        bottom: -30px
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+
+#callback-modal {
+    display: none;
+    position: fixed;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, .7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 55;
+}
+
+#callback-modal.show-modal {
+    display: flex;
+}
+
+#callback-modal .callback-modal__body {
+    padding: 30px 20px;
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    /* color: #fff; */
+    margin: auto;
+}
+
+.callback-modal-overley {
+    display: none;
+}
+
+#callback-modal .form_input {
+    position: relative;
+}
+
+#callback-modal .massage-content {
+    margin: auto;
+    text-align: center;
+}
+
+#callback-modal .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%
+}
+
+#callback-modal h2 {
+    margin: 0 !important;
+    font-size: 24px;
+}
+
+#callback-modal .sender-input,
+#callback-modal .sender-btn {
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background: transparent;
+    border-bottom: 2px solid #378d3e6b;
+}
+
+#callback-modal .sender-btn {
+    border: none;
+    color: #fff;
+    margin: 30px 0 5px 0;
+}
+
+#callback-modal .sender-descr {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#callback-modal .sender-done,
+#callback-modal .sender-err {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* color: #fff; */
+}
+
+#callback-modal .sender-check {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+#callback-modal .err-val-phone::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ff1b3c;
+}
+
+#callback-modal .form_input {
+    width: 100%;
+    padding: 0 15px;
+}
+
+#callback-modal .err-val-phone {
+    background: #ff1b3c;
+    color: #fff;
+    display: none;
+    position: absolute;
+    left: 15px;
+    bottom: -50%;
+    z-index: 1;
+    padding: 5px 10px;
+    animation: pulse-c-m 2s infinite ease-in-out;
+}
+
+.callback-modal__close {
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 55;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.callback-modal__close span {
+    display: block;
+    background: #418f3e;
+    transform: rotate(45deg);
+    height: 1px;
+    width: 100%;
+}
+
+.callback-modal__close:hover {
+    transform: rotate(90deg);
+}
+
+
+.callback-modal__close span:last-child {
+    transform: rotate(-45deg);
+}
+
+.fixed-body {
+    overflow: hidden;
+}
+
+@keyframes pulse-c-m {
+    from,
+    to {
+        bottom: -30px
+    }
+    10% {
+        bottom: -25px
+    }
+    20% {
+        bottom: -30px
+    }
+    30% {
+        bottom: -25px
+    }
+    40% {
+        bottom: -30px
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+
+#request-modal {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, .7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: 0;
+}
+
+#request-modal.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+#request-modal .request-modal_body {
+    color: #fff;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.3s;
+    padding: 30px 20px;
+    position: relative;
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    margin: auto;
+    transform: scale(0.8);
+}
+
+#request-modal.show-modal .request-modal_body {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#request-modal .form_input {
+    position: relative;
+}
+
+#request-modal .flex-container {
+    height: 100%;
+}
+
+#request-modal .massage-content {
+    margin: auto;
+    text-align: center;
+}
+
+#request-modal .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#request-modal .c-red {
+    color: red;
+}
+
+#request-modal .sender-caption {
+    font-weight: bold;
+    margin: 20px 9px !important;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#request-modal .form_input p {
+    margin: 0;
+}
+
+#request-modal .sender-input,
+#request-modal .sender-btn {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#request-modal .form_input>p {
+    font-size: 17px;
+}
+
+#request-modal .form_input {
+    margin-bottom: 10px;
+}
+
+#request-modal .sender-input {
+    max-width: 100%;
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: 1px solid #378d3e;
+}
+
+#request-modal .sender-btn {
+    padding: 9px 0;
+    color: #fff;
+    margin: 20px 0 10px 0;
+}
+
+#request-modal .sender-done,
+#request-modal .sender-err {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#request-modal .sender-check {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+#request-modal .err-val-phone::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ff1b3c;
+}
+
+#request-modal .err-val-phone {
+    background: #ff1b3c;
+    color: #fff;
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    z-index: 1;
+    padding: 5px 10px;
+    animation: pulse-r 2s infinite ease-in-out;
+}
+
+.sender-caption,
+.sender-descr {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sender-descr {
+    margin-bottom: 40px;
+    color: #ece;
+}
+
+.request-modal__close {
+    width: 44px;
+    height: 44px;
+    padding-top: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 55;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.request-modal__close:hover span {
+    background: #378d3e;
+    transform: rotate(-135deg);
+}
+
+.request-modal__close:hover span:last-child {
+    transform: rotate(135deg);
+}
+
+.request-modal__close span {
+    transition: background-color 250ms, transform 250ms;
+    display: block;
+    background-color: #fff;
+    transform: rotate(45deg);
+    height: 1px;
+    width: 100%;
+}
+
+.request-modal__close span:last-child {
+    transform: rotate(-45deg);
+}
+
+
+.sender-title {
+    font-size: 24px;
+    margin:  10px 0;
+    text-align:  center;
+}
+
+@keyframes pulse-r {
+    from,
+    to {
+        bottom: -30px
+    }
+    10% {
+        bottom: -25px
+    }
+    20% {
+        bottom: -30px
+    }
+    30% {
+        bottom: -25px
+    }
+    40% {
+        bottom: -30px
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+
+@media (max-width: 666px) {
+    #callback-open .form_input {
+        width: 100%;
+    }
+    #callback-open .form_input:first-child,
+    #callback-open .form_input:nth-child(2) {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    #callback-sale .form_input {
+        float: none;
+        width: 100%;
+    }
+    #callback-sale h2 {padding: 0 15px;}
+    #callback-sale .callback-sale__body {padding: 20px 0;}
+}
+
+@media (max-width: 404px) {
+    #callback-open .form_input {
+        width: 100% !important;
+    }
+    #callback-sale .form_input {
+        float: none;
+        width: 100%;
+    }
+}
