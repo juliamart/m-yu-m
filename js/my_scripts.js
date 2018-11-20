@@ -353,7 +353,7 @@ $(document).ready(function () {
                         radius: 60,
                         width: 20,
                         duration: 2000,
-                        text: '1<span class="pr">час</span>',
+                        text: '3<span class="pr">дня</span>',
                         colors: colors[i - 1]
                     });
                 circle = Circles.create({
@@ -362,7 +362,7 @@ $(document).ready(function () {
                     radius: 60,
                     width: 20,
                     duration: 2000,
-                    text: '7<span class="pr">лет</span>',
+                    text: '4<span class="pr">года</span>',
                     colors: colors[i - 1]
                 });
                 circle = Circles.create({
@@ -371,7 +371,7 @@ $(document).ready(function () {
                     radius: 60,
                     width: 20,
                     duration: 2000,
-                    text: '295',
+                    text: '76',
                     colors: colors[i - 1]
                 });
                 circle = Circles.create({
@@ -380,7 +380,7 @@ $(document).ready(function () {
                     radius: 60,
                     width: 20,
                     duration: 2000,
-                    text: '35<span class="pr">%</span>',
+                    text: '33<span class="pr">%</span>',
                     colors: colors[i - 1]
                 });
                 circles.push(circle);
