@@ -555,6 +555,9 @@
         margin: 0 auto 30px;
         box-sizing: border-box;
     }
+	.direction-dev--item:last-child {
+		margin-bottom: 0;
+	}
     .cifry-title {
         font-size: 30px;
     }

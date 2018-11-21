@@ -304,16 +304,6 @@ textarea:focus:-ms-input-placeholder { color:rgba(255,255, 255, 0.2); }
     margin: 100px;
 }
 
-#pochemu {
-    min-height: 700px;
-    display: block;
-}
-
-.pochemu-container {
-    width: 100%;
-    float: left;
-}
-
 .korona {
     width: 74px;
     margin: 0 auto;
@@ -325,6 +315,10 @@ textarea:focus:-ms-input-placeholder { color:rgba(255,255, 255, 0.2); }
     height: auto;
     color: #848484;
     text-align:  center;
+}
+
+.my-blocks {
+	margin-bottom: 20px;
 }
 
 .my-block {
@@ -670,7 +664,6 @@ textarea:focus:-ms-input-placeholder { color:rgba(255,255, 255, 0.2); }
     width: 100%;
     margin: 0 auto;
     max-width: 850px;
-    min-height: 200px;
     font-size: 14px;
     padding: 40px 0;
 }
@@ -678,6 +671,13 @@ textarea:focus:-ms-input-placeholder { color:rgba(255,255, 255, 0.2); }
 #canvas {
     margin: 0 auto;
     width: 98%;
+}
+
+#canvas::after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 #canvas .circle {
@@ -2162,10 +2162,6 @@ ul.pagination li a {
     text-shadow: 2px 0 4px #1d191973;
 }
 
-.services_list {
-    margin: 40px 0;
-}
-
 .services_list .new_usluga {
     border: none;
     text-align: center;
@@ -2237,7 +2233,7 @@ ul.pagination li a {
 .main_service_title {
     font-weight: bold;
     text-align: center;
-    margin: 40px 0;
+    margin: 0 0 40px;
     text-transform: uppercase;
     font-size: 40px;
     color: #848484;
@@ -2549,3 +2545,6 @@ img.callback-modal-btn.phone-icon {
     font-size: 30px;
 }
 
+.ppc .head-questions {
+	margin-top: 0;
+}
