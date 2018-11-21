@@ -492,8 +492,10 @@
         width: 150px;
         margin: 0 auto 34px;
     }
+    
     .f-brif-container {
         float: none;
+	    margin-bottom: 36px;
     }
     .f-brif {
         margin: 0;
@@ -595,6 +597,24 @@
     .head-form--questions .form-group__item .context-text {
         margin-bottom: 0;
     }
+    
+    .col-md {
+        flex-direction: column;
+    }
+    
+	.contacts {
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	.contacts__link {
+		font-size: inherit;
+	}
+	
+	.kak-nachat-rabotu-description {
+		font-size: 16px;
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 440px) {
@@ -683,7 +703,6 @@
     .my-block-but img {
         width: 300px;
     }
-
 
     .otzyvy {
         width: 100%;
