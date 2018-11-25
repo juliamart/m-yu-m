@@ -17,18 +17,8 @@ $(function () {
         $('.main-nav').toggleClass('activ-nav');
     });
 
-    // $('#logo a').on("click", function (event) {
-    //     console.log(111)
-    //     var id = $(this).attr('href'),
-    //         top = $(id).offset().top;
-    //     $('body,html').animate({ scrollTop: top - 80 }, 1000);
-    //     event.preventDefault();
-    // });
-
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
-        
-        //smoothscroll
         $('#top-menu a[href^="#"]').on('click touch', function (e) {
             e.preventDefault();
             $(document).off("scroll");
@@ -56,7 +46,7 @@ $(function () {
         $('#top-menu a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos + 120 && refElement.position().top + refElement.height() > scrollPos + 120) {
+            if (refElement.position().top <= scrollPos + 400 && refElement.position().top + refElement.height() > scrollPos - 400) {
                 $('#top-menu li').removeClass("active");
                 currLink.parent().addClass("active");
             }
